@@ -3,3 +3,4 @@ def insertar_juego(self,juego):
     self.juegos.append(juego)
     return True
   return False
+S = 019 + 18 mod 17 / 3
