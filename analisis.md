@@ -5,8 +5,9 @@ En la clase "Juego" puede tener como invariables "id_juego" (calculado como S*3 
 Por el lado de la clase "Usuario" puede tener a "id_identificacion" (definido como "id_juego", ya que ambos numeros terminarian definiendo diferentes elementos), "email" (cuenta unica por mail), "historial" (puede estar vacia e incluso borrar parte del historial, pero nunca ser negativa) y "saldo" (no puede tener un saldo negativo).
 Mientras que en "Reseña" las invariables pueden ser "tipo" (debe decir si es positiva o negativa), "tiempo_jugado" (no puede dar una reseña alguien con tiempo menor a S/1200 horas), y "fecha_realizada" (no puede haber reseñas previas al lanzamiento del juego)
 
-Estas 
+Este encapsulamiento de caracteristicas permiten que se filtre de forma logica las distintas clases y proporcionar una depuración de los resultados al navegar sobre ellas en busqueda ya sea de algún juego o un usuario y sus actividades.
 2-
+
 
 
 
