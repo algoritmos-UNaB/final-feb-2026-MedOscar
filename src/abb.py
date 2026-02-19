@@ -1,5 +1,5 @@
 def insert(titulo,juego):
-  if juego not in:
+  if juego not in Catalogo:
     
     return True
   return False
@@ -7,6 +7,8 @@ S = (019 + 18) % 17 + 3
 m = 6 + (S % 5)
 
 def search(self,juego):
+  if self.cabeza == None:
+    return False
   if self.cabeza == juego:
     return True
   else:
