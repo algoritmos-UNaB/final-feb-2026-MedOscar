@@ -1,3 +1,4 @@
+import student.json
 def insert(titulo,juego):
   if juego not in Catalogo:
     
@@ -14,3 +15,25 @@ def search(self,juego):
   else:
     return search(self.hijo_d) search(hijo_i)
 
+def inorden(listado = Catalogo.juegos):
+  resultado = []
+  if listado == []:
+    return None
+  for item in listado:
+    if resultado = []:
+      resultado.append(item)
+    for i in range(resultado(len)):
+      if item.sort()<resultado(i).sort():
+        resultado.insert(i,item)
+        break
+      else:
+        resultado.append(item)
+  return resultado   # luego la lista sería presentada como elementos individuales
+
+def buscar_prefix(prefijo):
+  resultado = []
+  for juego in Catalogo.juegos:
+    if prefijo.sort() in juego.sort():
+      resultado.append(juego)
+  return resultado
+m = 6 + (student.json.S % 5)
