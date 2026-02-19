@@ -1,4 +1,7 @@
 import student.json
 class catalogo:
-  juegos = student.json.S * 3
+  def __init__ (self,año_publicacion,empresa):
+    self.año_publicacion = año_publicacion
+    self.empresa = empresa
   
+
